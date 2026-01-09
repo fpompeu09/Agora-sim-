@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f5f7fa;
+  color: #333;
+}
+
+.hero {
+  background: linear-gradient(135deg, #0a66c2, #00b4d8);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+}
+
+.hero p {
+  margin: 15px 0 25px;
+  font-size: 1.1em;
+}
+
+.btn-whatsapp {
+  background: #25d366;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.section {
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.section h2 {
+  margin-bottom: 30px;
+  color: #0a66c2;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.destaque {
+  background: #e8f4ff;
+  border-radius: 20px;
+}
+
+.destaque ul {
+  list-style: none;
+  font-size: 1.1em;
+}
+
+.destaque li {
+  margin: 10px 0;
+}
+
+.contato p {
+  margin: 10px 0;
+}
+
+footer {
+  background: #0a66c2;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
